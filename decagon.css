@@ -1,0 +1,231 @@
+/*font-family: 'Shadows Into Light Two', cursive;
+*/.deca{
+		position: absolute;
+		top: 20%;
+		left: 37%;
+		perspective:200px;
+		height: 475px;
+		width: 500px;
+		padding-top: 10px;
+		border: white 1px solid;
+		border-radius: 100%;
+}
+.decup, .decdwn{
+	display: flex;
+	margin-left: 180px;
+	perspective:100px;
+}		
+.decup>div, .decdwn>div{
+	width: 0;
+	height: 0;
+	border-left: 70px solid transparent;
+	border-right: 70px solid transparent;
+	position: absolute;
+	 font-family: 'Shadows Into Light Two', cursive;
+	 font-size: 24px;
+	 color: white;
+}
+.after{
+	perspective:50px;
+	z-index: 2;
+	width: 0;
+	height: 0;
+	border-left: 70px solid transparent;
+	border-right: 70px solid transparent;
+	border-bottom: 230px solid white;
+	position: absolute;
+	margin-left: -70px;
+	margin-top: -35px;
+	webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+	transform-origin: 50% 100%;
+	box-shadow:0 3px 0px 0;
+}
+.rotateX{
+	-webkit-transform: rotateX(180deg);
+	-moz-transform: rotateX(180deg);
+	-o-transform: rotateX(180deg);
+	transform: rotateX(180deg);
+}
+.decdwn{
+	margin-top: 190px;
+}
+#decHome{
+	transform: rotateZ(108deg);
+	margin-left: -108px;
+	margin-top: 78px;
+	border-bottom: 230px solid #311b92;
+}
+#decHome:before{
+	 content: "Home";
+	 transform: rotateZ(-108deg);
+	 display: inline-block;
+	 position: relative;
+	 top: 160;
+	 left: -20;
+}
+#decHome:after{
+	content: "";
+	border-bottom:2px solid white;
+	display: inline-block;
+	 position: relative;
+	 top: 160;
+	 left: -20;
+}
+
+#decAbout{
+	transform: rotateZ(144deg);
+	margin-left: -67px;
+	margin-top: 21px;
+	border-bottom: 230px solid #ff6f00;
+}
+#decAbout:before{
+	 content: "About";
+	 display: inline-block;
+	 transform: rotateZ(-144deg);
+	 position: relative;
+	 top: 160;
+	 left: -20;
+
+}
+
+
+
+#decCommune{
+	transform: rotateZ(180deg);
+	margin-left: 0px;
+	margin-top: 0px;
+	border-bottom: 230px solid #e65100;
+}
+#decCommune:before{
+	 content: "Community";
+	 display: inline-block;
+	 transform: rotateZ(180deg);
+	 position: relative;
+	 top: 160;
+	 left: -45;
+}
+
+
+
+#decCultural{
+	transform: rotateZ(216deg);
+	margin-left: 67px;
+	margin-top: 21px;
+	border-bottom: 230px solid #880e4f;
+}
+#decCultural:before{
+	 content: "Cultural";
+	 display: inline-block;
+	 transform: rotateZ(-216deg);
+	 position: relative;
+	 top: 160;
+	 left: -20;
+}
+
+
+
+#decSports{
+	transform: rotateZ(252deg);
+	margin-left: 108px;
+	margin-top: 78px;
+	border-bottom: 230px solid #b71c1c;
+}
+#decSports:before{
+	 content: "Sports";
+	 display: inline-block;
+	 transform: rotateZ(-252deg);
+	 position: relative;
+	 top: 160;
+	 left: -20;
+}
+
+
+
+
+#decGaming{
+	transform: rotateZ(72deg);
+	margin-left: -108px;
+	margin-top: -42px;
+	border-bottom: 230px solid #00c853;
+}
+#decGaming:before{
+	 content: "Gaming";
+	 display: inline-block;
+	 transform: rotateZ(-72deg);
+	 position: relative;
+	 top: 160;
+	 left: -30;
+}
+
+
+#decProshows{
+	transform: rotateZ(36deg);
+	border-bottom: 230px solid #1b5e20;
+	margin-left: -68px;
+	margin-top: 16px;
+}
+#decProshows:before{
+	 content: "Proshows";
+	 display: inline-block;
+	 transform: rotateZ(-36deg);
+	 position: relative;
+	 top: 160;
+	 left: -42;
+}
+
+
+
+
+#decTeam{
+	transform: rotateZ(0deg);
+	margin-left: 0px;
+	margin-top: 36px;
+	border-bottom: 230px solid #212121;
+}
+#decTeam:before{
+	 content: "Team";
+	 display: inline-block;
+	 transform: rotateZ(0deg);
+	 position: relative;
+	 top: 160;
+	 left: -30;
+}
+
+
+
+
+#decSponsers{
+	transform: rotateZ(-36deg);
+	border-bottom: 230px solid #006064;
+	margin-left: 68px;
+	margin-top: 16px;
+}
+#decSponsers:before{
+	 content: "Sponsers";
+	 display: inline-block;
+	 transform: rotateZ(36deg);
+	 position: relative;
+	 top: 160;
+	 left: -40;
+}
+
+
+
+
+#decReachingUs{
+	transform: rotateZ(-72deg);
+	border-bottom: 230px solid #d50000;
+	margin-left: 108px;
+	margin-top: -42px;
+}
+#decReachingUs:before{
+	 content: "ReachingUs";
+	 display: inline-block;
+	 transform: rotateZ(72deg);
+	 position: relative;
+	 top: 130;
+	 left: -40;
+}
